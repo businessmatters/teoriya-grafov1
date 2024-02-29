@@ -18,7 +18,6 @@ void main() {
         if ((mas[i] <= 0) or (k % 2 != 0) or (k <= n)) {
             flag = false;
             cout << "Графа не существует ";
-            return 0;
         }
     }
     if (flag)
